@@ -1,1 +1,13 @@
-.vercel
+# Ignore virtual environment
+.venv/
+
+# Ignore Vercel directory
+.vercel/
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore other temporary or build files
+.DS_Store
+*.log
